@@ -1,0 +1,83 @@
+# Archivos de configuración sensibles
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# Directorios de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entorno virtual
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Archivos temporales del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.old
+
+# Datos sensibles o temporales
+temp/
+tmp/
+*.tmp
+
+# Archivos específicos del proyecto
+.qodo/
+
+# Archivos de resultados de pruebas
+test-results/
+reports/
